@@ -1,8 +1,14 @@
+import { useParams } from 'react-router-dom';
+import companies from './../companies.json'
+
+
+
 function CompanyPage() {
   return (
-    <div>
-      <h1>CompanyPage</h1>
-    </div>
+
+    < div >
+      <h1>Company Profile</h1>
+    </div >
   );
 }
 
